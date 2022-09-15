@@ -1,1 +1,1 @@
-# go_tdd_sample
+https://andmorefine.gitbook.io/learn-go-with-tests/
