@@ -10,5 +10,6 @@ RUN go install -v golang.org/x/tools/gopls@latest \
 
 RUN mkdir /go/src/app
 WORKDIR /go/src/app
+RUN alias g='git'
 COPY go.mod ./
 RUN go mod download && go mod verify
