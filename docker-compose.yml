@@ -7,3 +7,5 @@ services:
       - ./:/go/src/app
     working_dir: /go/src/app
     tty: true
+    ports:
+      - "127.0.0.1:8000:8000"
