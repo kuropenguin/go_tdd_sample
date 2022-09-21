@@ -12,4 +12,5 @@ RUN mkdir /go/src/app
 WORKDIR /go/src/app
 RUN alias g='git'
 COPY go.mod ./
+ENV CGO_ENABLED 0 
 RUN go mod download && go mod verify
